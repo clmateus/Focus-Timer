@@ -58,8 +58,12 @@ button svg {
 
 .play svg path,
 .pause svg path,
-.sound-on svg path {
+.sound-off svg path {
   fill: var(--primary-color);
+}
+
+.sound-on svg path {
+  fill: var(--text-color);
 }
 
 .sound {
